@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+
+    // tpye이 없더라도 any를 지정해줘라
+    "noImplicitAny": true
+  }
+}
