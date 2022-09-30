@@ -18,6 +18,12 @@
 
 <BR>
 
+2. 명시적인 `any` 선언하기
+
+   - `tsconfig.json` 파일에 `noImplicitAny` 값을 `true`로 추가
+
+<br>
+
 ## 참고 자료
 
 - [존스 홉킨스 코로나 현황](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)

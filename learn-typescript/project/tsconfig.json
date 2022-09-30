@@ -5,7 +5,9 @@
     "outDir": "./built",
     "moduleResolution": "Node",
     // ES2015 추가 이유 => async await 문법을 ts가 인지하도록
-    "lib": ["ES2015", "DOM.Iterable", "DOM"]
+    "lib": ["ES2015", "DOM.Iterable", "DOM"],
+    "noImplicitAny": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
