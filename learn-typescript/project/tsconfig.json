@@ -6,7 +6,8 @@
     "moduleResolution": "Node",
     // ES2015 추가 이유 => async await 문법을 ts가 인지하도록
     "lib": ["ES2015", "DOM.Iterable", "DOM"],
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "dist"]
